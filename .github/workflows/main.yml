@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/Nextjs_App
+            cd /home/ubuntu/Nestjs_App
             git pull origin main
             npm install
             npm run build
